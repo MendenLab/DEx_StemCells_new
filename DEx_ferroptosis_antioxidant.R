@@ -238,13 +238,13 @@ for (i in genes_interest) {
     #            alpha = 0.7, 
     #            size = 3) +
     geom_bar(stat = "identity",position = "dodge",
-             alpha = 0.6) +
+             alpha = 0.8) +
     scale_fill_manual(values=c("B27 +AO" = "#140101", "B27 -AO" = "#dd0d0b", "Day 0" = "grey48", "Day 10" = "grey48")) +
     labs(x = "",
          y = "Mean Expression (log normalized counts)",
-         color = "",
+         fill = "",
          title = i) +
-    theme_minimal() + # Select theme with a white background  
+    theme_classic() + # Select theme with a white background  
     theme(axis.text=element_text(size=12),
           axis.title=element_text(size=12),
           plot.title = element_text(size = 13, face="bold",hjust = 0.5),

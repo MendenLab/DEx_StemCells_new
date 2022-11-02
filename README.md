@@ -7,6 +7,7 @@ In this repository is presented a script with the necessary steps to replicate t
 ## Usage 
 
 The script considers a data format of raw RNA-seq count data with IDs and genes represented in columns and rows, respectively.
+
 Please check the manuscript to access the data used for the study.
 
 This project was conducted in [R software](https://www.r-project.org). 
@@ -14,29 +15,19 @@ This project was conducted in [R software](https://www.r-project.org).
 All the necessary R package dependencies are
 
 * ggplot2
-* magrittr
 * ggpubr
 * readxl
 * readr
 * dplyr
-* nortest
 * tidyverse
 * plyr
-* ashr
-* plm
+* ggrepel
 
 These packages and dependencies should be installed a priori using the install.packages() function and complemented by the library() function to be ready to use. 
 
-Furthermore, we also leveraged packages available in the Bioconductor:
+Furthermore, we also leveraged the DESeq2 package available in the Bioconductor.
 
-* edgeR
-* limma
-* biomaRt
-* DESeq2
-* apeglm
-* vsn 
-
-Similarly, to employ these packages, first install the BiocManager package using install.packages("BiocManager"), and later the packages above using BiocManager::install(). 
+Similarly, to employ this, first install the BiocManager package using install.packages("BiocManager"), and later the packages above using BiocManager::install(). 
 
 
 ## Contact

@@ -2,7 +2,7 @@
 
 ## Description
 
-In this repository is presented a script with the necessary steps to replicate the differential expression analysis and visualizations of a time and compound dependent dataset of stem cells. 
+In this repository is presented a script with the necessary steps to replicate the differential expression analysis and visualizations for the manuscript *Suppression of ferroptosis by vitamin A or radical-trapping antioxidants is essential for neuronal development*, published in [Nature Communications (2024)](https://doi.org/10.1038/s41467-024-51996-1). 
 
 ## Usage 
 
